@@ -74,7 +74,7 @@ _resetForm() {
     this._formElement.reset();
 }
 
-_resetValidation() {
+resetValidation() {
     this._inputList.forEach((inputElement) => {
         this._hideInputError(inputElement);
     });
@@ -90,7 +90,7 @@ _resetValidation() {
         evt.preventDefault();
   });
   this._setEventListeners();
-  this._resetValidation();
+  this.resetValidation();
 };
     
 }

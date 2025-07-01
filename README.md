@@ -1,6 +1,6 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+This project is a simple Todo app that uses HTML, CSS and Javascript to work using form validation and beginning OOP principles. 
 
 ## Functionality
 

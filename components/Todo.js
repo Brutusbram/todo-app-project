@@ -25,7 +25,7 @@ class Todo {
         this._todoLabel.setAttribute("for", `todo-${this._data.id}`);
     }
     
-    _dueDateEl(){
+    _updateDueDateEl(){
         const dueDate = new Date(this._data.date);
       if (!isNaN(dueDate)) {
        this._todoDate.textContent = `Due: ${dueDate.toLocaleString("en-US", {
@@ -47,7 +47,7 @@ class Todo {
         todoNameEl.textContent = this._data.name;
 
         this._generateCheckboxEl();
-        this._dueDateEl();
+        this._updateDueDateEl();
         this._setEventListeners();
 
    return this._todoElement;
