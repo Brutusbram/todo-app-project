@@ -15,4 +15,4 @@ Give a description of the technologies and techniques used. Pictures, GIFs, or s
 This project is deployed on GitHub Pages:
 
 - ADD LINK HERE
-brutusbram.github.io/todo-app-project
+http://brutusbram.github.io/todo-app-project

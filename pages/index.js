@@ -22,10 +22,12 @@ const addTodoPopup = new PopupWithForm({
     const id = uuidv4();
     const values = { name, date, id };
     renderTodo(values);
+    todoCounter.updateTotal(true);
     addTodoPopup.close();
     newTodoValidator.resetValidation();
   },
 });
+addTodoPopup.setEventListeners ();
 
 function handleCheckboxChange(completed) {
   todoCounter.updateCompleted(completed);
